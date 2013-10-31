@@ -2,18 +2,14 @@
 	'use strict';
 
 	var level,
-		buttons,
-		build,
-		tear,
+		buttons = document.getElementsByTagName('input'),
+		build = buttons[0],
+		tear = buttons[1],
 		currentLevel = 0,
 		currentLevelRelativePosition = 0,
 		sky = document.getElementsByClassName('sky')[0],
 		widthSelection = document.getElementsByClassName('widthSelection')[0],
 		colourSelection = document.getElementsByClassName('colourSelection')[0];
-
-	buttons = document.getElementsByTagName('input');
-	build = buttons[0];
-	tear = buttons[1];
 
 	var createLevel = function(numWindows) {
 		var level = document.createElement('div'),
