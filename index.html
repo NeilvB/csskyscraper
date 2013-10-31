@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<title>Build a CSSkyscraper</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div>Build your own CSSkyscraper!</div>
+	</header>
+
+	<div class="main">
+		<div class="sky"></div>
+		<div class="ground"></div>
+	</div>
+
+	<div class="builder">
+		<input type="button" name="build" value="Build Up!">
+		<input type="button" name="tear" value="Tear Down!">
+		
+		<label for="width">Width</label>
+		<select class="widthSelection" name="width">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="4" selected>4</option>
+			<option value="6">6</option>
+		</select>
+
+		<label for="colour">Material</label>
+		<select class="colourSelection" name="colour">
+			<option value="gray" selected>Concrete</option>
+			<option value="blue">Blue Plastic</option>
+			<option value="brown">Clay</option>
+			<option value="gold">Gold</option>
+			<option value="rgba(120, 108, 90, 0.3)">Glass</option>
+		</select>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
