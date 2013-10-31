@@ -1,7 +1,3 @@
-/*body, html {
-	height: 100em;
-}*/
-
 input[type="button"] {
 	color: blue;
 }
@@ -32,8 +28,6 @@ header {
 
 .builder {
 	background-color: white;
-	/*width: 120px;*/
-	/*height: 130px;*/
 	position: fixed;
 	right: 2em;
 	top: 2em;
@@ -42,10 +36,6 @@ header {
 	border-color: black;
 	text-align: center;
 	padding: 2px;
-}
-
-.builder * {
-	margin: 2px;
 }
 
 .level {
